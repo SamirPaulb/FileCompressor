@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script
+      src="https://code.jquery.com/jquery-3.2.1.js">
+  </script>
+<title>File Uploader</title>
+</head>
+<body>
+ <form enctype = "multipart/form-data" onsubmit="return false;" >
+   <input id="file" type="file" name="static_file" />
+   <button id="upload-button" onclick="uploadFile(this.form)"> Upload </button>
+	 <button id="download-button" onclick="downloadFile()"> Download </button>
+   </form>
+ <div id="static_file_response"> </div>
+
+ <script type="text/javascript" src="/static/app.js"></script>
+ </script>
+</body>
+</html>

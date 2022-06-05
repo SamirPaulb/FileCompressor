@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: PDFNetPython3
+Version: 8.1.0
+Summary: PDFNetPython3 Wrapper
+Home-page: https://www.pdftron.com/documentation/python/get-started/python3
+Author: PDFTron Systems Inc.
+Author-email: support@pdftron.com
+Maintainer: mnguyen
+Maintainer-email: mnguyen@pdftron.com
+License: Other/Proprietary License (Commercial)
+Keywords: PDF SDK,PDF library,PDF toolkit,PDF convert,PDF render,PDF view,PDF print,edit PDF
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.4
+
+PDFTron SDK is the ultimate PDF toolkit.
+
+With PDFTron components you can build reliable & speedy applications that can view, create, print, edit, and annotate PDFs ... across operating systems.
+
+Developers use PDFTron SDK to read, write, and edit PDF documents compatible with all published versions of PDF specification (including the latest ISO32000). The extensive PDF library API supports most common use-case scenarios such as:
+
+*        PDF Viewing & Collaboration
+
+*        PDF Rasterization
+
+*        PDF Printing
+
+*        PDF Form filling and flattening
+
+*        PDF Split & Merge
+
+*        PDF Stamping
+
+*        Dynamic PDF generation (e.g. FlowDocument & Xaml to PDF)
+
+*        PDF Text extraction and indexing
+
+*        PDF Packages
+
+*        PDF Layers (OCGs)
+
+*        PDF Editing
+
+*        PDF Encryption
+
+*        Manipulate PDF bookmarks, links, and annotations.
+
+*        PDF Optimization
+
+*        PDF conversion to XML, HTML, XPS, SVG, TIF, etc.
+
+*        PDF/A Validation and Conversion
+
+*        PDF Redaction
+
+*        PDF Conversion from XPS, MS Office, HTML, XAML, TXT, TIFF etc.
+
+*        HTML to PDF Conversion
+
