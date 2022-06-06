@@ -25,7 +25,7 @@ function downloadFile(filename) {
 	if(response !== null) {
 	console.log("response is not empty");
 		fname = response.filename;
-	  var url = "https://filecompressor.samirpaul1.repl.co/" + fname;
+	  var url = "https://filecompressor.samirpaul1.repl.co/static/resource/" + fname.toString(2);
 	  console.log(url);
 	
 	    fetch(url)
