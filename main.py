@@ -2,6 +2,7 @@ import os
 import os.path
 import webbrowser
 from pathlib import Path
+import arrow
 import requests
 import urllib.request
 from flask import Flask, request, render_template, jsonify
@@ -20,13 +21,25 @@ def get_message():
 
 def upload_static_file():
 	f = request.files['static_file']
-	# Trying to save file inside the resource directory
-	save_path = 'https://filecompressor.samirpaul1.repl.co/static/resource/'
+	
 	f.save(f.filename)
-	out_path=os.path.join(os.getcwd(),'static','resource',str(f.filename))
-	#os.rename(f.filename, save_path + f.filename)
+	# out_path = path where compressed file will be stored
+	out_path = os.path.join(os.getcwd(),'static','resource',str(f.filename))
 	compress_file(str(f.filename), out_path)
 	os.remove(f.filename)
+
+	# auto delete files after 1 hour
+	filesPath = out_path
+	criticalTime = arrow.now().shift(hours=+1).shift(days=-0)
+	for item in Path(filesPath).glob('*'):
+	    if item.is_file():
+	        print (str(item.absolute()))
+	        itemTime = arrow.get(item.stat().st_mtime)
+	        if itemTime < criticalTime:
+	            #remove it
+	            pass
+
+	
 	
 	resp = {"filename": str(f.filename),
 			"success": True,

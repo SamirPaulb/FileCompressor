@@ -10,6 +10,7 @@ numpy = "^1.22.2"
 Flask = "^2.1.2"
 Flask-Cors = "^3.0.10"
 requests = "^2.27.1"
+arrow = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 
