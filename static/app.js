@@ -40,20 +40,3 @@ function downloadFile(filename) {
 	}
 	console.log("exit download");
 }
-
-/*
-function downloadFile(filename) {
-                  var element = document.createElement('a');
-                 filename = response.filename; element.setAttribute("https://filecompressor.samirpaul1.repl.co/" + filename);
-                  element.setAttribute('download', filename);
-                  document.body.appendChild(element);
-                  element.click();
-                  //document.body.removeChild(element);
-            }
-            document.getElementById(static_file_response)
-                  .addEventListener("click", function () {
-                        var text = document.getElementById(static_file_response).value;
-                        var filename = "output.txt";
-                        downloadFile(filename);
-                  }, false);
-*/
