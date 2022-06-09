@@ -23,7 +23,30 @@ https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-
 
 
 ### Flask File Uploading:
-The server-side flask script fetches the file from the request object using ```name = request.files['file'].filename```. On successfully uploading the file, it is saved to the desired location on the server.
+ In HTML form, the enctype property is set to ```"multipart/form-data"``` to publish the file to the URL.The URL handler extracts the file from the ```request.files []``` object and saves it to the required location. The path to the upload folder is defined as ```app.config['UPLOAD_FOLDER']``` and maximum size (in bytes) as 
+```maximum size (in bytes)```.
+The server-side flask script fetches the file from the request object using ```name = request.files['file'].filename```.
+On successfully uploading the file, it is saved to the desired location on the server.
+Here’s the Python code for the Flask application.
+```python
+from flask import Flask, render_template, request
+from werkzeug import secure_filename
+app = Flask(__name__)
+
+@app.route('/upload')
+def upload_file():
+   return render_template('upload.html')
+	
+@app.route('/uploader', methods = ['GET', 'POST'])
+def upload_file():
+   if request.method == 'POST':
+      f = request.files['file']
+      f.save(secure_filename(f.filename))
+      return 'file uploaded successfully'
+		
+if __name__ == '__main__':
+   app.run(debug = True)
+```
 
 
 ### How PDF is compressed in backend:
@@ -80,3 +103,5 @@ function downloadFile(filename) {
 - [x] Create a branch with your feature: `git checkout -b my-feature`;
 - [x] Commit your changes: `git commit -m "feat: my new feature"`;
 - [x] Push to your branch: `git push origin my-feature`.
+
+Made with ❤️ by [@SamirPaul1](https://github.com/SamirPaul1) :wave: [Get in touch](https://www.linkedin.com/in/SamirPaul)
