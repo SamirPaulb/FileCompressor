@@ -22,6 +22,10 @@ https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-
 ![screenshot](https://raw.githubusercontent.com/SamirPaulb/assets/main/filecompressor-samirpaul1-repl-co-landing-page.png)
 
 
+### Flask File Uploading:
+The server-side flask script fetches the file from the request object using ```name = request.files['file'].filename```. On successfully uploading the file, it is saved to the desired location on the server.
+
+
 ### How PDF is compressed in backend:
 ```python
 import os
@@ -49,6 +53,25 @@ if __name__ == "__main__":
     compress_file(input_file, output_file)
 ```
 
+### File Download:
+```js
+function downloadFile(filename) {
+	if(response !== null) {
+		fname = response.filename;
+	  var url = "static/resource/" + fname.toString(2);
+	  console.log(url);
+	    fetch(url)
+	    .then(response => response.blob())
+	    .then(blob => {
+	      const link = document.createElement("a");
+	      link.href = URL.createObjectURL(blob);
+	      link.download = fname;
+	      link.click();
+	  })
+	  .catch(console.error);
+	}
+}
+```
 
 
 ## 🤔 How to contribute
