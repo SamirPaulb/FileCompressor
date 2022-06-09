@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-
 
 
 
--[x] Landing Page:
+- [x] Landing Page:
 ![screenshot](https://raw.githubusercontent.com/SamirPaulb/assets/main/filecompressor-samirpaul1-repl-co-landing-page.png)
 
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 ## 🤔 How to contribute
 
--[x] Fork this repository;
--[x] Create a branch with your feature: `git checkout -b my-feature`;
--[x] Commit your changes: `git commit -m "feat: my new feature"`;
--[x] Push to your branch: `git push origin my-feature`.
+- [x] Fork this repository;
+- [x] Create a branch with your feature: `git checkout -b my-feature`;
+- [x] Commit your changes: `git commit -m "feat: my new feature"`;
+- [x] Push to your branch: `git push origin my-feature`.
