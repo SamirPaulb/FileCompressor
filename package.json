@@ -1,0 +1,22 @@
+{
+  "name": "filecompressor",
+  "version": "1.0.0",
+  "description": "PDF file compression tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirpaul1/filecompressor.git"
+  },
+  "keywords": [
+    "FileCompressor"
+  ],
+  "author": "SamirPaul1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirpaul1/filecompressor/issues"
+  },
+  "homepage": "https://github.com/samirpaul1/filecompressor#readme"
+}
