@@ -10,7 +10,7 @@ An online PDF file compression tool to reduce the size of a .pdf file. Python Fl
 In the backend, using the ```PDFNetPython``` library that file gets reduced and saved to its final location. After download, the files are automatically deleted from the server after 1 hour. Technologies used in this project: ```Python3```, ```Flask```, ```C```, ```Shell```, ```Nix```, ```Replit```, ```Git```, ```HTML```, ```CSS```, ```JavaScript```.
 
 
-- [Live Demo 🚀 ](https://filecompressor.samirpaul1.repl.co)
+- [Live Demo 🚀 ](https://filecompressor.samirpaul.repl.co)
 
 ## Video:
 https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-810e-780e47a391f9.mp4
@@ -104,4 +104,4 @@ function downloadFile(filename) {
 - [x] Commit your changes: `git commit -m "feat: my new feature"`;
 - [x] Push to your branch: `git push origin my-feature`.
 
-Made with ❤️ by [@SamirPaul1](https://github.com/SamirPaul1) :wave: [Get in touch](https://www.linkedin.com/in/SamirPaul)
+Made with ❤️ by [@SamirPaulb](https://github.com/SamirPaulb) :wave: [Get in touch](https://www.linkedin.com/in/SamirPaul)

@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samirpaul1/filecompressor.git"
+    "url": "git+https://github.com/samirpaulb/filecompressor.git"
   },
   "keywords": [
     "FileCompressor"
   ],
-  "author": "SamirPaul1",
+  "author": "samirpaulb",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/samirpaul1/filecompressor/issues"
+    "url": "https://github.com/samirpaulb/filecompressor/issues"
   },
-  "homepage": "https://github.com/samirpaul1/filecompressor#readme",
+  "homepage": "https://github.com/samirpaulb/filecompressor#readme",
 
   "publishConfig": {
-   "@SamirPaul1:registry": "https://npm.pkg.github.com"
+   "@samirpaulb:registry": "https://npm.pkg.github.com"
  }
 
 }
